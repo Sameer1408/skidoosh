@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Jost', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.top{
+  background-image: url("images/Tarot\ card\ 2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 550px;;
+  margin-top:-42px ;
+  width:90%;
+  position:relative;
+  left: 65px;
+}
+
+.aboutImg{
+  background-image: url("images/Anjana2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 500px;
+  position: relative;
+  bottom: 20px;
+  /* left: 15px; */
+}
+
+.topAbout{
+  background-color: rgba(226, 226, 226, 0.377);
+  position: relative;
+}
+
+.aboutDiv{
+  position: relative;
+  top: 120px;
+}
+
+
+.aboutheading{
+  font-weight: 400;
+  font-family: 'Jost', sans-serif;
+}
+
+.aboutPara{
+  text-align: justify;
+  width: 90%;
+  font-family: 'Jost', sans-serif;
+}
+
+.serviceHeading{
+  margin-bottom: 50px;
+  position: relative;
+  /* left: 120px; */
+  width: 300px;
+  font-weight: 400;
+  font-family: 'Jost', sans-serif;
+}
+
+.Card{
+  box-shadow: 1px 10px 50px rgba(128, 128, 128, 0.13);
+  height:450px;
+  font-family: 'Jost', sans-serif;
+}
+
+.cardH{
+  font-weight: 400;
+  font-family: 'Jost', sans-serif;
+}
+
+.cardImg1{
+  background-image: url("images/Tarot\ card\ 2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 250px;
+}
+
+.cardImg2{
+  background-image: url("images/th.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 250px;
+}
+
+.cardImg3{
+  background-image: url("images/PSY_004_Numerology_Reading.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 250px;
+}
+
+.enqImg{
+  background-image: url("images/Purple\ Gradient\ Free\ Tarot\ Reading\ Instagram\ Post.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 1050px;
+  margin-bottom: 50px;
+}
+
+.enq{
+  margin-bottom: 50px;
+}
+
+.enqH{
+  font-weight: 400;
+  font-family: 'Jost', sans-serif;
+}
+
+.enqP{
+  text-align: justify;
+  font-size: 20px;
+  font-family: 'Jost', sans-serif;
+}
+
+.formDiv{
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.drop{
+  margin-top: 20px;
+  display: block;
+  margin-bottom: 50px;
+  width: 400px;
+  text-align: left;
+}
+
+.trendBtn{
+  border: 1px solid;  
+  position: relative;
+  width:350px;
+  padding: 10px;
+  top: 60px;
+  text-align: center;
+  transition: all 1s ease-in-out; 
+  background-color: transparent;
+  right: 142px;
+
+}
+
+.trendBtn:hover{
+  background-color: black;
+  color:white;
+  transition: all 1s ease-in-out; 
+}
+
+.reH{
+  font-weight: 400;
+  font-family: 'Jost', sans-serif;
+}
+
+.revDiv{
+  text-align: center;
+  height: auto;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.reSDiv{
+  background-color: rgba(4, 130, 168, 0.075);
+  padding:5px;
+  text-align: left;
+  height: 200px;
+  box-shadow: 1px 10px 50px rgba(128, 128, 128, 0.13);
+  color: rgb(44, 44, 44);
+}
+
+.rePara{
+  font-weight: 500;
+  font-family: 'Jost', sans-serif;
+}
+
+.formHeading{
+  font-weight: 400;
+  font-family: 'Jost', sans-serif;
+}
+
+.reSH{
+  font-family: 'Jost', sans-serif;
+}
+.RH{
+  font-weight: 400;
+  font-family: 'Jost', sans-serif;
+}
+
+label{
+  font-family: 'Jost', sans-serif;
+}
+
+.dropD{
+  font-family: 'Jost', sans-serif;
+}
+
+.thankHeading{
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-size: 80px;
+  width: 60%;
+  margin: auto;
+  top:24vh;
+  font-weight: 800;
+  font-family: 'Italiana', serif;
+}
+
+@media(max-width:998px){
+  
+.top{
+  background-image: url("images/Tarot\ card\ 2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 550px;;
+  margin-top:-42px ;
+  width:90%;
+  position:relative;
+  left: 20px;
+}
+.aboutImg{
+  background-image: url("images/Anjana2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 500px;
+  position: relative;
+  bottom: 20px;
+  /* left: 1px; */
+  width: 100.99%;
+}
+.aboutDiv{
+  position: relative;
+  top: 120px;
+  text-align: center;
+}
+
+.aboutPara{
+  text-align: justify;
+  width: 90%;
+  font-family: 'Jost', sans-serif;
+  margin: auto;
+}
+.topAbout{
+  background-color: rgba(226, 226, 226, 0.377);
+  position: relative;
+  height: 600px;
+}
+
+.service{
+  text-align: center;
+}
+
+.serviceHeading{
+  margin-bottom: 50px;
+  position: relative;
+  /* left: 55px; */
+  width: 300px;
+  font-weight: 400;
+  font-family: 'Jost', sans-serif;
+  /* border: 1px solid; */
+}
+
+.drop{
+  margin-top: 20px;
+  display: block;
+  margin-bottom: 50px;
+  width: 350px;
+  text-align: left;
+}
+
+.enqImg{
+  background-image: url("images/Purple\ Gradient\ Free\ Tarot\ Reading\ Instagram\ Post.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:contain;
+  height: 500px;
+  margin-bottom: 50px;
+}
+
+.trendBtn{
+  border: 1px solid;  
+  position: relative;
+  width:350px;
+  padding: 10px;
+  top: 60px;
+  text-align: center;
+  transition: all 1s ease-in-out; 
+  background-color: transparent;
+  right: 2px;
+
+}
+
+
+.thankHeading{
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-size: 80px;
+  width:400px;
+  margin: auto;
+  top:10vh;
+  font-weight: 800;
+  font-family: 'Italiana', serif;
+  text-align: center;
+}
+
+}
